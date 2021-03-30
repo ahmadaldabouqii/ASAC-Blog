@@ -1,0 +1,43 @@
+header{
+    width: 100%;
+    background: rgba(96, 96, 96,0.6);
+}
+
+nav{
+    
+    height: 100px;
+    text-align: center;
+}
+
+ul{
+   
+}
+
+li{
+    
+    display: inline;
+}
+
+#day,#month,#year{
+    width: 3%;
+    margin-right: 25px;
+    margin-top: 3px;
+}
+
+form{
+    padding: 10px;
+    width: 50%;
+    margin-left: 0;
+}
+
+#content{
+    width: 40%;
+    height: 90px;
+}
+
+#leftSide{
+    width: 50%;
+    height: 200px;
+    border: 2px solid red;
+    float: right;
+}

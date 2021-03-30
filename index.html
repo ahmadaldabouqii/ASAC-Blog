@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASAC</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>ASAC</li>
+                <li><a href=""> Home</a></li>
+                <li><a href=""> About</a></li>
+                <li><a href=""> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <form id="form">
+            <label for="AuthorName">Author name:</label>
+            <input required type="text" id="AuthorName" name="AuthorName"> <br>
+            <label for="ArticleTitle">Article title:</label>
+            <input required type="text" id="ArticleTitle" name="ArticleTitle"> <br>
+            <label for="subject">Subject:</label>
+            <select id="select">
+                <option>Coding</option>
+                <option>3D printing</option>
+                <option>Cyber security</option>
+                <option>AI</option>
+            </select><br>
+            <label for="content">Content</label><br>
+            <input type="text" id="content" name="content"><br>
+            <label for="day">day:</label>
+            <input required type="text" id="day" name="day">
+            <label for="month">month:</label>
+            <input required type="text" id="month" name="month">
+            <label for="year">year:</label>
+            <input required type="text" id="year" name="year"><br>
+            <input type="submit">
+        </form>
+        <div id="leftSide"></div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
